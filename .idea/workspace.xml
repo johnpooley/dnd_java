@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19dff9a5-c1c5-465b-992c-8f6bf0d2e8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SkeletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Skeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Skeleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SkeletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SkeletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SkeletonTest">
-    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wizard_lab" />
+  <component name="RunManager" selected="JUnit.DwarfTest.canAttack">
+    <configuration name="DwarfTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dnd_java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,12 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SkeletonTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dnd_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SkeletonTest" />
+      <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DwarfTest.canAttack" />
+        <item itemvalue="JUnit.SkeletonTest.canAttack" />
         <item itemvalue="JUnit.SkeletonTest" />
         <item itemvalue="JUnit.DwarfTest.hasDagger" />
         <item itemvalue="JUnit.DwarfTest.hasHammer" />
-        <item itemvalue="JUnit.DwarfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585227927811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add skeleton class">
+      <created>1585231980082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585231980082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;player attributes added&quot;" />
     <MESSAGE value="getters and setters for players" />
-    <option name="LAST_COMMIT_MESSAGE" value="getters and setters for players" />
+    <MESSAGE value="add skeleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add skeleton class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1585227875811">

@@ -1,5 +1,6 @@
 package Players;
 
+import Enemies.Enemy;
 import Enums.Weapons;
 
 import java.lang.reflect.Array;
@@ -17,5 +18,13 @@ public class Dwarf extends Player {
         this.defence=9;
 
 
+    }
+
+    public void  attack(Enemy enemy){
+        Weapons weapon= this.weapons.get(0);
+        int power=this.strength+weapon.getDamage();
+        int newHp=enemy.getHp();
+        newHp-=power;
+        enemy.setHp(newHp);
     }
 }

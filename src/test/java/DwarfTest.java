@@ -1,3 +1,4 @@
+import Enemies.Skeleton;
 import Enums.Weapons;
 import Players.Dwarf;
 import org.junit.Before;
@@ -13,9 +14,13 @@ public class DwarfTest {
 
 
     Dwarf dwarf;
+    Skeleton skeleton;
 
     @Before
-    public void before(){ dwarf = new Dwarf("Nigel");}
+    public void before() {
+        dwarf = new Dwarf("Nigel");
+        skeleton = new Skeleton();
+    }
 
 
 //    check initialization
@@ -73,5 +78,9 @@ public class DwarfTest {
     public void hasDagger(){
         assertEquals(false,dwarf.getWeapons().contains(Enums.Weapons.DAGGER));
     }
-
+    @Test
+    public void canAttack(){
+        dwarf.attack(skeleton);
+        assertEquals(-17,skeleton.getHp());
+    }
 }

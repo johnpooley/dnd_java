@@ -1,6 +1,7 @@
 package Enemies;
 
 import Enums.Weapons;
+import Players.Player;
 
 import java.util.ArrayList;
 
@@ -53,5 +54,13 @@ public abstract class Enemy {
 
     public void setHp(int hp) {
         this.hp = hp;
+    }
+
+    public void  attack(Player player){
+        Weapons weapon= (Weapons) this.getWeapon();
+        int power=this.strength+weapon.getDamage();
+        int newHp=player.getHp();
+        newHp-=power;
+        player.setHp(newHp);
     }
 }

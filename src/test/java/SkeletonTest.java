@@ -1,4 +1,5 @@
 import Enemies.Skeleton;
+import Players.Dwarf;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -6,11 +7,14 @@ import static org.junit.Assert.assertEquals;
 
 public class SkeletonTest {
     Skeleton skeleton;
+    Dwarf dwarf;
 
     @Before
     public void before(){
         skeleton=new Skeleton();
+        dwarf = new Dwarf("Nigel");
     }
+
 
     @Test
     public void hasDagger(){
@@ -28,4 +32,10 @@ public class SkeletonTest {
     public void hasStrength(){assertEquals(10,skeleton.getStrength());}
     @Test
     public void hasDefence(){assertEquals(10,skeleton.getDefence());}
+
+    @Test
+    public void canAttack(){
+        skeleton.attack(dwarf);
+        assertEquals(25,dwarf.getHp());
+    }
 }
