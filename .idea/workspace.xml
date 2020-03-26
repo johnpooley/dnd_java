@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19dff9a5-c1c5-465b-992c-8f6bf0d2e8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Exits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
+  <component name="RunManager">
+    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wizard_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DwarfTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -78,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585223459289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="getters and setters for players">
+      <created>1585227927811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585227927811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,20 +121,49 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;player attributes added&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;player attributes added&quot;" />
+    <MESSAGE value="getters and setters for players" />
+    <option name="LAST_COMMIT_MESSAGE" value="getters and setters for players" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1585227875811">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585227875811" />
+    <state x="219" y="2" key="CommitChangelistDialog2" timestamp="1585227927388">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="219" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1585227927388" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585230007928">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585230007928" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585230007924">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585230007924" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585230007923">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585230007923" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585230007926">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585230007926" />
     <state x="350" y="118" key="RollbackChangesDialog" timestamp="1585223949559">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="350" y="118" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1585223949559" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1585227940271">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1585227940271" />
     <state x="322" y="198" key="git4idea.merge.GitPullDialog" timestamp="1585223960048">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="322" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1585223960048" />
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1585229350280">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1585229350280" />
   </component>
 </project>

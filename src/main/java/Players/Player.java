@@ -1,13 +1,14 @@
 package Players;
 
+import Enums.Weapons;
 import com.sun.tools.javac.jvm.Items;
 
 import java.util.ArrayList;
 
 public abstract class Player {
     protected String name;
-    protected ArrayList<Weapon> weapons;
-    protected ArrayList<Item> items;
+    protected ArrayList<Weapons> weapons;
+    protected ArrayList<Integer> items;
     protected int gold;
     protected int exp;
     protected int hp;
@@ -17,8 +18,8 @@ public abstract class Player {
 
 //getters
     public String getName() { return name; }
-    public ArrayList<Weapon> getWeapons() { return weapons; }
-    public ArrayList<Item> getItems() { return items; }
+    public ArrayList<Weapons> getWeapons() { return weapons; }
+    public ArrayList<Integer> getItems() { return items; }
     public int getGold() { return gold; }
     public int getExp() { return exp; }
     public int getHp() { return hp; }
@@ -29,10 +30,10 @@ public abstract class Player {
 //    setters
 
 
-    public void setWeapons(ArrayList<Weapon> weapons) {
+    public void setWeapons(ArrayList<Weapons> weapons) {
         this.weapons = weapons;
     }
-    public void setItems(ArrayList<Item> items) {
+    public void setItems(ArrayList<Integer> items) {
         this.items = items;
     }
     public void setGold(int gold) {
@@ -57,8 +58,8 @@ public abstract class Player {
 
     public Player (String name){
         this.name=name;
-        this.weapons=new ArrayList<Weapon>();
-        this.items=new ArrayList<Item>();
+        this.weapons=new ArrayList<Weapons>();
+        this.items=new ArrayList<Integer>();
         this.gold=0;
         this.exp=0;
         this.hp=0;
