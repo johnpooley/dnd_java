@@ -20,11 +20,5 @@ public class Dwarf extends Player {
 
     }
 
-    public void  attack(Enemy enemy){
-        Weapons weapon= this.weapons.get(0);
-        int power=this.strength+weapon.getDamage();
-        int newHp=enemy.getHp();
-        newHp-=power;
-        enemy.setHp(newHp);
-    }
+
 }

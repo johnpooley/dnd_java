@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19dff9a5-c1c5-465b-992c-8f6bf0d2e8a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/Spells.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFriend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SkeletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SkeletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -48,19 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.DwarfTest.canAttack">
+  <component name="RunManager" selected="JUnit.WizardTest">
     <configuration name="DwarfTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dnd_java" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,16 +66,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DwarfTest" />
       <option name="METHOD_NAME" value="hasDagger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwarfTest.hasHammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dnd_java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="hasHammer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,15 +90,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wizard_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.DwarfTest.canAttack" />
         <item itemvalue="JUnit.SkeletonTest.canAttack" />
         <item itemvalue="JUnit.SkeletonTest" />
         <item itemvalue="JUnit.DwarfTest.hasDagger" />
-        <item itemvalue="JUnit.DwarfTest.hasHammer" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -175,30 +176,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="add skeleton class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1585227875811">
+    <state x="206" y="45" key="#DwarfTest.canAttack" timestamp="1585234904978">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585227875811" />
+    <state x="206" y="45" key="#DwarfTest.canAttack/0.0.1280.800@0.0.1280.800" timestamp="1585234904978" />
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1585235864015">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585235864015" />
     <state x="219" y="2" key="CommitChangelistDialog2" timestamp="1585227927388">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="219" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1585227927388" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585230007928">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585236250912">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585230007928" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585230007924">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585236250912" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585236250909">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585230007924" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585230007923">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585236250909" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585236250908">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585230007923" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585230007926">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585236250908" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585236250911">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585230007926" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585236250911" />
     <state x="350" y="118" key="RollbackChangesDialog" timestamp="1585223949559">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -207,13 +212,13 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1585227940271" />
-    <state x="322" y="198" key="git4idea.merge.GitPullDialog" timestamp="1585223960048">
+    <state x="322" y="198" key="git4idea.merge.GitPullDialog" timestamp="1585233964105">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="322" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1585223960048" />
-    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1585229350280">
+    <state x="322" y="198" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1585233964105" />
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1585234598043">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1585229350280" />
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1585234598043" />
   </component>
 </project>

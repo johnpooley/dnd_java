@@ -1,5 +1,6 @@
 package Players;
 
+import Enemies.Enemy;
 import Enums.Weapons;
 import com.sun.tools.javac.jvm.Items;
 
@@ -68,6 +69,12 @@ public abstract class Player {
         this.defence=0;
     }
 
-
+    public void  attack(Enemy enemy){
+        Weapons weapon= this.weapons.get(0);
+        int power=this.strength+weapon.getDamage();
+        int newHp=enemy.getHp();
+        newHp-=power;
+        enemy.setHp(newHp);
+    }
 
 }
