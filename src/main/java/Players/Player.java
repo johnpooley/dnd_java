@@ -11,7 +11,7 @@ public abstract class Player {
     private int gold;
     private int exp;
     private int hp;
-    private int initiave;
+    private int initiative;
     private int strength;
     private int defence;
 
@@ -22,7 +22,7 @@ public abstract class Player {
         this.gold=0;
         this.exp=0;
         this.hp=0;
-        this.initiave=0;
+        this.initiative=0;
         this.strength=strength;
         this.defence=defence;
     }

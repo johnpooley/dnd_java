@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19dff9a5-c1c5-465b-992c-8f6bf0d2e8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviors/IAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Behaviors/ISlingFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Skeleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
     </list>
@@ -79,6 +68,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585218905508</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;player attributes added&quot;">
+      <created>1585223459289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585223459289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;player attributes added&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;player attributes added&quot;" />
   </component>
 </project>
