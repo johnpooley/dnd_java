@@ -66,8 +66,12 @@ public class DwarfTest {
 
     @Test
     public void hasHammer(){
-        weapons=
-        assertEquals(,dwarf.getWeapons());
+        assertEquals(true,dwarf.getWeapons().contains(Enums.Weapons.HAMMER));
+    }
+
+    @Test
+    public void hasDagger(){
+        assertEquals(false,dwarf.getWeapons().contains(Enums.Weapons.DAGGER));
     }
 
 }
